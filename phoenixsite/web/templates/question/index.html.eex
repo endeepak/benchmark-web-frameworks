@@ -1,0 +1,5 @@
+<h2>Questions</h2>
+
+<%= for question <- @questions do %>
+  <%= question.question_text %></td>
+<% end %>
